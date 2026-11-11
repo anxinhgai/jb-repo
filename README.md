@@ -1,5 +1,9 @@
 # Repo APT free để share deb (Sileo / Zebra) — bộ khung chạy sẵn
 
+> **Repo đang chạy:** https://anxinhgai.github.io/jb-repo/
+> → Sileo/Zebra → Sources → `+` → dán URL trên.
+> Nguồn: https://github.com/anxinhgai/jb-repo
+
 Folder này **đã là một repo hoàn chỉnh**, chỉ việc đẩy lên GitHub là có URL cho người khác thêm vào Sileo/Zebra.
 
 ```
@@ -36,9 +40,9 @@ Deb của tweak bình thường chỉ vài trăm KB → GitHub Pages là đủ. 
 
 ### Bước 1: tạo repo
 1. Đăng nhập GitHub → **New repository** → đặt tên (vd. `repo`), chọn **Public** → Create.
-2. URL repo sẽ thành: `https://github.com/<user>/repo`
+2. URL repo sẽ thành: `https://github.com/anxinhgai/jb-repo`
 
-> Muốn URL ngắn `https://<user>.github.io/` thì đặt tên repo là `<user>.github.io`.
+> Muốn URL ngắn `https://anxinhgai.github.io/` thì đặt tên repo là `<user>.github.io`.
 
 ### Bước 2: đẩy nội dung folder này lên
 Cách dễ (không cần biết git): mở repo trên web → **Add file → Upload files** → kéo **toàn bộ nội dung bên trong** folder `repo/` (không kéo cả folder cha) → Commit.
@@ -50,7 +54,7 @@ cd repo
 git init -b main
 git add -A
 git commit -m "init repo"
-git remote add origin https://github.com/<user>/repo.git
+git remote add origin https://github.com/anxinhgai/jb-repo.git
 git push -u origin main
 ```
 
@@ -63,11 +67,11 @@ Workflow có sẵn sẽ tự chạy: cài `zstandard` → `python3 tools/make_re
 
 ### Bước 4: lấy URL và share
 ```
-https://<user>.github.io/repo/
+https://anxinhgai.github.io/jb-repo/
 ```
 (thêm `/` cuối). Trang landing mở ra có sẵn 3 nút **Add to Sileo / Add to Zebra / Copy URL** — gửi link này cho người khác là họ thêm được ngay.
 
-Trên máy: Sileo → tab **Sources** → `+` → dán `https://<user>.github.io/repo/` → Add. Zebra cũng tương tự.
+Trên máy: Sileo → tab **Sources** → `+` → dán `https://anxinhgai.github.io/jb-repo/` → Add. Zebra cũng tương tự.
 
 ### Bước 5: cá nhân hoá
 Sửa `repo.json`:
@@ -76,8 +80,8 @@ Sửa `repo.json`:
   "origin": "Tên bạn",
   "label": "Tên repo hiện trong Sileo",
   "description": "Mô tả ngắn",
-  "support": "https://github.com/<user>/repo/issues",
-  "depiction": "https://<user>.github.io/repo/",
+  "support": "https://github.com/anxinhgai/jb-repo/issues",
+  "depiction": "https://anxinhgai.github.io/jb-repo/",
   "icon": "CydiaIcon.png",
   "debs_dir": "debs"
 }
