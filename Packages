@@ -1,0 +1,17 @@
+Package: jtool2
+Version: 2020.12.21
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Author: Jonathan Levin
+Section: Development
+Priority: optional
+Homepage: http://newosxbook.com/tools/jtool.html
+Description: otool, but better (non-opensource)
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Installed-Size: 1068
+Filename: debs/jtool2_2020.12.21_iphoneos-arm64e.deb
+Size: 245322
+MD5sum: 18f82eee31b1a716a270b0f602632b37
+SHA1: 5c1de5a306fbf546dc5e7bd8109fd69088092588
+SHA256: f23a13c4bdc2103f91c36a620366481138b99729b47ba211d396ab46d6f65f2e
+SHA512: b4fa6a356f61e67fb33bc0680876bf1e0e5353c7cf160c047a4d5809c1c77bfd800d2ebc6d0d67d264da1332c1d5b7ab73d70ad497cb29b250395cde3d37a486

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Repo</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#0b0e14; color:#e6e9ef;
+         font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:820px; margin:0 auto; padding:40px 22px 60px; }
+  header { display:flex; gap:16px; align-items:center; margin-bottom:8px; }
+  header img { width:64px; height:64px; border-radius:16px; }
+  h1 { font-size:24px; margin:0; letter-spacing:-.02em; }
+  .sub { color:#8b93a3; font-size:13px; margin:2px 0 0; }
+  .url { display:flex; gap:8px; align-items:center; background:#131824; border:1px solid #232a3a;
+          border-radius:12px; padding:12px 14px; margin:22px 0 14px; flex-wrap:wrap; }
+  .url code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px;
+               color:#9ad1ff; word-break:break-all; }
+  .btns { display:flex; gap:10px; flex-wrap:wrap; }
+  a.btn { display:inline-block; text-decoration:none; font-weight:600; font-size:13.5px;
+           padding:10px 16px; border-radius:10px; border:1px solid #2b3346; color:#e6e9ef; }
+  a.btn.primary { background:#2f6bff; border-color:#2f6bff; }
+  h2 { font-size:14px; text-transform:uppercase; letter-spacing:.12em; color:#8b93a3;
+        margin:34px 0 12px; font-weight:600; }
+  .pkg { background:#10151f; border:1px solid #1d2432; border-radius:12px;
+          padding:14px 16px; margin-bottom:10px; }
+  .pkg .top { display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+  .pkg .name { font-weight:600; }
+  .pkg .ver { font-family:ui-monospace,monospace; font-size:12px; color:#7ee0a8; }
+  .pkg .meta { color:#8b93a3; font-size:12.5px; margin-top:4px;
+                font-family:ui-monospace,monospace; }
+  .pkg .desc { color:#c3cad6; font-size:13.5px; margin-top:6px; }
+  .pkg a { color:#9ad1ff; font-size:12.5px; text-decoration:none; }
+  footer { margin-top:36px; color:#5f6878; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="CydiaIcon.png" alt="">
+    <div>
+      <h1>My Repo</h1>
+      <p class="sub">Free jailbreak packages for roothide / rootless iOS</p>
+    </div>
+  </header>
+
+  <div class="url"><span style="color:#8b93a3;font-size:13px">Source URL</span>
+    <code id="src">https://USERNAME.github.io/REPO/</code></div>
+  <div class="btns">
+    <a class="btn primary" id="sileo" href="#">＋ Add to Sileo</a>
+    <a class="btn" id="zebra" href="#">＋ Add to Zebra</a>
+    <a class="btn" id="copy" href="#">Copy URL</a>
+  </div>
+
+  <h2>1 package(s)</h2>
+    <div class="pkg"><div class="top"><span class="name">jtool2</span><span class="ver">2020.12.21</span></div><div class="meta">iphoneos-arm64e · 240 KB · Development</div><div class="desc">otool, but better (non-opensource)</div><div style="margin-top:8px"><a href="debs/jtool2_2020.12.21_iphoneos-arm64e.deb">download .deb</a></div></div>
+
+  <footer>APT repository · flat layout · generated 2026-11-11 06:20 UTC</footer>
+</div>
+<script>
+  var src = location.origin + location.pathname.replace(/index\.html$/, "");
+  if (src.startsWith("file:")) src = document.getElementById("src").textContent;
+  document.getElementById("src").textContent = src;
+  document.getElementById("sileo").href = "sileo://source/" + src;
+  document.getElementById("zebra").href = "zbra://sources/add/" + src;
+  document.getElementById("copy").onclick = function (e) {
+    e.preventDefault();
+    navigator.clipboard && navigator.clipboard.writeText(src);
+    e.target.textContent = "Copied";
+  };
+</script>
+</body>
+</html>

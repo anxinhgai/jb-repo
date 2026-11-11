@@ -1,0 +1,30 @@
+Origin: My Repo
+Label: My Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64e
+Components: main
+Description: Free jailbreak packages for roothide / rootless iOS
+Icon: CydiaIcon.png
+Date: Wed, 11 Nov 2026 06:20:17 UTC
+MD5Sum:
+ ebea23e6a19c3693935a12a26165f2d9              712 Packages
+ 4b514cd717e730035dc43ac257af0449              514 Packages.gz
+ 102d832bbbd9c7c3e7ab25602fbe9d19              584 Packages.xz
+ 53f6efc34076de15b45ce1aa62b781fc              515 Packages.zst
+SHA1:
+ a523d7a7b29378ba97177ebc83c584d0f8a17ae6              712 Packages
+ a6046f26f2583dc6500128a1b45d9b3bebc87627              514 Packages.gz
+ d1d844f3aba1b9fe10d1666388b45e036a3dd477              584 Packages.xz
+ c3bc2b08a31cc121a54b808c3f984deea1380fa2              515 Packages.zst
+SHA256:
+ ed1a7a01be1a8d0ef9a5362af2a780823a0ca4003a2d5cac2317feba69bbc3ab              712 Packages
+ 073f5dd49583b5a86419face0e51ac180776101689ca5dbe94a6b720260ba2fa              514 Packages.gz
+ a0694af22350f90c6b45e60cc49862b88acba45be849d5689c93292da2ef4ecc              584 Packages.xz
+ cbb4b0c3304f9c150b1f0fb72e9be94b73c32b5d7f7d15703fafec6cbc37e2df              515 Packages.zst
+SHA512:
+ 8c2010e811cf30e4546e2dc86e5e4462a4b9dc97b052e1e1c7ce02d5685c0d6acf3c4d3631db72e2f0cf52c56192170b556884aca6454a71ee204f49fe6d2f57              712 Packages
+ f841b0a6e3757e90bf7519ee6a834290c4b5f72482cdfa0f66fd427f68614e9a1a9b50a23ac9130d2176d03d625df4c94c0c146b6b8bf46917ad64171c8b3eb7              514 Packages.gz
+ a7b4704f4fb0a4ab92401055316cf0dbfbe34ed9bf987acd55b3ab5033ea13fd5f1dc9b962dd1e58b60139bea250e400efc414f1f18300214703ee6003ea9945              584 Packages.xz
+ ecad997d72d8ff1588172cfaf8a1a9ced10cecbfc3571ea240cb02a238581979ecf8d7ea233556c5095c4333bcf65030579310e9c86b31b63098e8de9ed08259              515 Packages.zst

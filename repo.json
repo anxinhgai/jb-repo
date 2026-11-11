@@ -1,0 +1,13 @@
+{
+  "origin": "My Repo",
+  "label": "My Repo",
+  "description": "Free jailbreak packages for roothide / rootless iOS",
+  "suite": "stable",
+  "version": "1.0",
+  "codename": "ios",
+  "components": "main",
+  "support": "",
+  "depiction": "",
+  "icon": "CydiaIcon.png",
+  "debs_dir": "debs"
+}
