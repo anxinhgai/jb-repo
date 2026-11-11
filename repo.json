@@ -3,7 +3,7 @@
   "label": " tca roothide repo",
   "description": "Free jailbreak packages for roothide / rootless iOS",
   "suite": "stable",
-  "version": "1.0",
+  "version": "1.1",
   "codename": "ios",
   "components": "main",
   "support": "",
