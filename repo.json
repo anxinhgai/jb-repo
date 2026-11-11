@@ -1,6 +1,6 @@
 {
-  "origin": "My Repo",
-  "label": "My Repo",
+  "origin": "TCA RAVEN",
+  "label": "TCA_REPO",
   "description": "Free jailbreak packages for roothide / rootless iOS",
   "suite": "stable",
   "version": "1.0",
